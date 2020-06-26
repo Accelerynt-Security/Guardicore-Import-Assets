@@ -81,7 +81,7 @@ You should see the that the “Send Data” box has updated and displays “Conn
 
 ![Logicapp5a](Images/Logicapp5a.png)
 
-Back at your playbook overview we will want to manually run the playbook to grab the assets. Click on "Run Trigger" and the click the "Recurrance" tag the pops up below.
+Back at your playbook overview we will want to manually run the playbook to grab the assets. Click on "Run Trigger" and the click the "Recurrance" tag that pops up below.
 
 ![recurrancea](Images/recurrancea.png)
 
