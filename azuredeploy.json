@@ -33,7 +33,7 @@
             "name": "[variables('azureloganalyticsdatacollector')]",
             "location": "[resourceGroup().location]",
             "properties": {
-                "displayName": "GCIncidents",
+                "displayName": "GCAssets",
                 "customParameterValues": {
                 },
                 "api": {
