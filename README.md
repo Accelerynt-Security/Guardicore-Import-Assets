@@ -31,7 +31,7 @@ https://github.com/Arbala-Security/Guardicore-Import-Assets
 
 From there, click the “Deploy to Azure” button at the bottom and it will bring you to the Custom Deployment Template.
 
-![Deploya](Images/GitDeploya.png)
+![Deploya](Images/GitDeploy.png)
 
 In the **BASICS** section:  
 
