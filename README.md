@@ -1,4 +1,4 @@
-# Integrating Guardicore Assets into Azure Sentinel 
+# Integrating Guardicore Assets into Microsoft Sentinel 
 
 Author: Accelerynt
 
@@ -19,7 +19,7 @@ You will need the following items to enter in the playbook settings during deplo
 
 * A Username/Password that is a Local Administrator in your Guardicore environment. 
 
-* The Azure Sentinel Workspace ID where you want the incidents logged. 
+* The Microsoft Sentinel Workspace ID where you want the incidents logged. 
 
 * The Primary or Secondary Key to your workspace. 
 
@@ -103,13 +103,13 @@ Back at your playbook overview we will want to manually run the playbook to grab
 
 ![recurrancea](Images/recurrancea.png)
 
-You should now have a table of your Guardicore assets and their properties in Sentinel. You can view the asset logs by returning to your Azure Sentinel workspace and clicking on “**Logs**”. You should have a new custom log called “**GCAssets_CL**” – type that into your query window and click run. Set the time frame for 1 hour. Each line returned contains the details for each individual asset returned from the Guardicore API. 
+You should now have a table of your Guardicore assets and their properties in Sentinel. You can view the asset logs by returning to your Microsoft Sentinel workspace and clicking on “**Logs**”. You should have a new custom log called “**GCAssets_CL**” – type that into your query window and click run. Set the time frame for 1 hour. Each line returned contains the details for each individual asset returned from the Guardicore API. 
 
 ![finala](Images/finala.png)
 
-## Finding your Azure Sentinel Workspace ID and Primary/Secondary Key 
+## Finding your Microsoft Sentinel Workspace ID and Primary/Secondary Key 
 
-To find your Workspace ID and Primary/Secondary key, start by clicking on “**Settings**” from the Azure Sentinel workspace you want the incidents sent to. Then click on “**Workspace Settings**” under the Azure Search Bar. 
+To find your Workspace ID and Primary/Secondary key, start by clicking on “**Settings**” from the Microsoft Sentinel workspace you want the incidents sent to. Then click on “**Workspace Settings**” under the Microsoft Search Bar. 
 
 ![settings1](Images/settings1.png)
 
