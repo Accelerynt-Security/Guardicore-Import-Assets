@@ -2,8 +2,8 @@
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "metadata": {
-        "comments": "This playbook will pull Guardicore Assets into Azure Sentinel Logs.",
-        "author": "Arbala Security"
+        "comments": "This playbook will pull Guardicore Assets into Microsoft Sentinel Logs.",
+        "author": "Accelerynt"
     },
     "parameters": {
         "PlaybookName": {
@@ -19,8 +19,7 @@
             "type": "string"
         },
         "GCPassword": {
-            "defaultValue": "Enter your Guardicore API password",
-            "type": "string"
+            "type": "SecureString"
         }
     },
     "variables": {
